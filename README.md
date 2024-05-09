@@ -4,6 +4,10 @@ Auteure : Alexia Kurz
 Université de Lausanne, semestre printemps 2024
 Master TEM
 
+
+// certaines parties sont encore à modifier ! faire relecture ! 
+Projet : Visualisation de l'évolution du bâti et de la densité de la commune d'Eysins (VD)
+
 Données 
 
 Les données des bâtiments proviennent de l’Office fédéral de la topographie swisstopo, ce qui correspond au centre national de la géoinformation et les données sont accessibles à tous gratuitement en téléchargement.
@@ -60,3 +64,9 @@ Ce qu'elles ne permettent pas de dire
 Cependant, cette carte interactive ne permet pas de visualiser l’évolution du bâti aux alentours. Il serait intéressant de développer ce modèle avec les communes limitrophes et d’analyser plus précisément la superficie occupée par le bâti. Dès lors, elle n’affiche que visuellement l’augmentation du bâti et la transformation des bâtiments, mais ne permet pas d’obtenir des informations statistiques quant à l’évolution de la superficie des sols construits, quant au nombre total de bâtiments ou encore leur répartition par type. 
 Selon l’objectif de la carte, il aurait été également envisageable de représenter les types de bâtiments (résidentiel, commercial, industriel, etc.) afin de mettre en évidence de quelle manière la structure du bâti de la commune d’Eysins a changé au fil du temps. A cela aurait pu aussi s’ajouter les équipements et les services offerts afin de connaître leur influence sur cette évolution. Or, cette application interactive cherche à rendre visuellement facilement l’évolution du bâti, du lien avec l’augmentation de la population et l’impact sur la densité d’habitant par km².
 
+
+Bibliographie
+Immo-swissnews.ch. (s. d.). Nyon : Une des régions les plus performantes de Suisse. Toute l’information immobilière en Suisse. Consulté 23 avril 2024, à l’adresse https://www.immo-swissnews.ch/Nyon-une-des-regions-les-plus-performantes-de-Suisse_a1130.htm
+Planification territoriale. (s. d.). Planification territoriale. Consulté 9 mai 2024, à l’adresse https://www.nyon.ch/nyon-officiel/politiques-thematiques/amenagement-du-territoire/planification-territoriale-946
+Etat et structure de la population | État de Vaud. (s. d.). Consulté 9 mai 2024, à l’adresse https://www.vd.ch/etat-droit-finances/statistique/statistiques-par-domaine/01-population/etat-et-structure-de-la-population
+swisstopo. (s. d.). swissBUILDINGS3D 2.0. Consulté 9 mai 2024, à l’adresse https://www.swisstopo.admin.ch/fr/modele-du-territoire-swissbuildings3d-2-0
