@@ -25,6 +25,10 @@ Cependant, les données démographiques publiées par l’Office fédéral de la
 
 Grâce à ces données, il est possible de compléter un fichier avec les données démographiques, de 1950, 1980, 2012 à 2023 en remplissant les champs de la population, la superficie et la densité, soit en divisant la population par la superficie. 
 
+Les données démographiques ont dans un premier temps été traitées dans un fichier Excel afin d'obtenir le nombre d'habitants par année, la superficie (constante dans le cas de la commune d'Eysins) et donc la densité. Ainsi, le fichier excel est composé de quatre colonnes. Les informations manquants sont également présentes et sont représentées en null. Ce fichier a ensuite été téléchargé sur QGIS sous format .csv afin de l'exporter en .geojson/ .js afin de pouvoir l'utiliser dans l'application.
+
+Quant aux données sur les bâtiments, l'application QGIS a également été utilisée afin d'exporter les couches en format .js. Comme cela a été mentionné, des modifications ont dû être faites sur la couche des années 1980 afin de rajouter des bâtiments sous forme de vecteurs en s'inspirant des cartes historiques geomapadmin.
+
 Contexte de la problématique
 
 La commune d'Eysins, située dans le district de Nyon et adjacente à la ville du même nom, a connu une croissance significative de son bâti et de sa population depuis les années 1990. Cette expansion peut être attribuée à sa position géographique stratégique au cœur du pôle économique genevois et vaudois. En 2023, la population de ce petit village rural comptait 1739 habitants. Cette croissance a été accompagnée par le développement de nouvelles infrastructures et l'arrivée de nouveaux résidents, transformant progressivement l'image de la commune (Immo-swissnews.ch, s. d. ; Planification territoriale, s. d.).
@@ -66,7 +70,8 @@ Selon l’objectif de la carte, il aurait été également envisageable de repr�
 
 
 Bibliographie
-Immo-swissnews.ch. (s. d.). Nyon : Une des régions les plus performantes de Suisse. Toute l’information immobilière en Suisse. Consulté 23 avril 2024, à l’adresse https://www.immo-swissnews.ch/Nyon-une-des-regions-les-plus-performantes-de-Suisse_a1130.htm
-Planification territoriale. (s. d.). Planification territoriale. Consulté 9 mai 2024, à l’adresse https://www.nyon.ch/nyon-officiel/politiques-thematiques/amenagement-du-territoire/planification-territoriale-946
-Etat et structure de la population | État de Vaud. (s. d.). Consulté 9 mai 2024, à l’adresse https://www.vd.ch/etat-droit-finances/statistique/statistiques-par-domaine/01-population/etat-et-structure-de-la-population
-swisstopo. (s. d.). swissBUILDINGS3D 2.0. Consulté 9 mai 2024, à l’adresse https://www.swisstopo.admin.ch/fr/modele-du-territoire-swissbuildings3d-2-0
+- Etat et structure de la population | État de Vaud. (s. d.). Consulté 9 mai 2024, à l’adresse https://www.vd.ch/etat-droit-finances/statistique/statistiques-par-domaine/01-population/etat-et-structure-de-la-population
+- Immo-swissnews.ch. (s. d.). Nyon : Une des régions les plus performantes de Suisse. Toute l’information immobilière en Suisse. Consulté 23 avril 2024, à l’adresse https://www.immo-swissnews.ch/Nyon-une-des-regions-les-plus-performantes-de-Suisse_a1130.htm
+- Planification territoriale. (s. d.). Planification territoriale. Consulté 9 mai 2024, à l’adresse https://www.nyon.ch/nyon-officiel/politiques-thematiques/amenagement-du-territoire/planification-territoriale-946
+- swisstopo. (s. d.). swissBUILDINGS3D 2.0. Consulté 9 mai 2024, à l’adresse https://www.swisstopo.admin.ch/fr/modele-du-territoire-swissbuildings3d-2-0
+
