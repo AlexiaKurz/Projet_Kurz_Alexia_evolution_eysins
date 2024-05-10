@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Développement du bâti d'Eysins</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Chargement des données -->
+  <script src="communeEysins.js"></script>
+  <script src="Eysins_pop_superficie_densite.js"></script>
+
+  <!-- Chargement des données des bâtiments-->
+  <script src="BAT_Eysins2021.js"></script>
+  <script src="BAT_Eysins2010.js"></script>
+  <script src="BAT_Eysins2000.js"></script>
+  <script src="BAT_Eysins1990.js"></script>
+</head>
+
+<body>
+
+  <h1>Evolution du bâti et de la densité de la population d'Eysins</h1>
+  <h2>Commune vaudoise, Suisse</h2>
+  <h3>2024 © Alexia Kurz</h3>
+
+  <ul class="topnav">
+    <li>
+      <a id="accueil-link" href="#">Accueil</a>
+    </li>
+
+    <li class="wider-dropdown style-dropdown">
+      <a href="#">Evolution du bâti et de la densité de la population (1950-2023)</a>
+      <ul class="dropdown">
+        <li>
+          <label for="year">Evolution:</label>
+          <input type="range" min="1950" max="2023" value="1950" class="slider" id="yearSlider" oninput="toggleBuildingByYear()">
+          <span id="slider_value">1950</span>
+          <br>
+        </li>
+      </ul>
+    </li>
+
+
+    <li class="wider-dropdown style-dropdown">
+      <a href="#">Sources</a>
+      <ul class="dropdown">
+        <li>
+          <span class="dropdown-header">Couches des bâtiments : © swissBUILDINGS3D 2.0</span>
+          <br><span class="dropdown-header">Couches cartes : © ESRI | OpenStreetMap</span>
+        </li>
+      </ul>
+    </li>
+
+    <li class="wider-dropdown style-dropdown">
+      <a href="#">Contacts</a>
+      <ul class="dropdown">
+        <li>
+          <span class="dropdown-header">Alexia Kurz</span>
+          <br> Adresse Email : <a href="#"
+            onclick="window.location.href='mailto:alexia.kurz@unil.ch'; return false;">mastertem@unil.ch</a>
+          <br> Tél. <a href="tel:+41216923500">+41 78 XXX XX XX</a>
+        </li>
+      </ul>
+    </li>
+
+  </ul>
+
+  <div id="infoBox" class="info"></div>
+  <div id="map"></div>
+  <div id="coords" class="coords-info">Coordonnées :</div>
+
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

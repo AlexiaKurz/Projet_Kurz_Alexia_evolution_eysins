@@ -1,0 +1,226 @@
+#map {
+  position: absolute;
+  left: 0px;
+  width: 100vw;
+  height: calc(100vh - 50px);
+  background-color: #FFFFFF;
+  border: 1px solid #228B22;
+}
+
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin right: : 10px;
+}
+
+h1 {
+  margin: 11px; 
+  font-weight: bold;
+  font-size: 30pt;
+  text-align: left;
+  text-justify: auto;
+}
+
+h2 {
+  margin: 11px; 
+  margin-top: -15px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: justify;
+  text-justify: auto;
+}
+
+h3 {
+  position: fixed;
+  right: 15px; 
+  top: 100px;
+  margin: 11px; 
+  margin-top: 3px;
+  font-weight: normal;
+  font-size: 12px;
+  text-align: left;
+  line-height: 0.5cm; 
+  color: white;
+}
+
+h4 {
+  margin: 11;
+  margin-top: -20px;
+  font-weight: normal;
+  font-size: 25px;
+  text-align: justify;
+  text-justify: auto;
+  line-height: 1cm;
+  padding: 10px;
+}
+
+.coords-info {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+/*Mise en page de la barre de navigation*/
+
+/* Ajout d'un fond noir à la barre de navigation */
+ul.topnav {
+  list-style: none;
+  background: #333;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style pour les éléments du menu navigation */
+ul.topnav li {
+  position: relative;
+  text-align: left;
+}
+
+ul.topnav li a {
+  display: inline-block;
+  vertical-align: top;
+  margin: px;
+  padding: 10px;
+  color: #FFF;
+  text-decoration: none;
+  text-align: start;
+  font-size: 20px;
+}
+
+/* Style pour barre de menu déroulante */
+ul.topnav li ul.dropdown {
+  width: 100%;
+  background: #333;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  left: 0;
+  top: 100%;
+}
+
+/*Permet d'avoir une liste avec les éléments empilés*/
+ul.topnav li:hover ul.dropdown {
+  display: flex;
+  flex-direction: column;
+}
+
+/*Permet de définir la largeur et de les afficher en tant que blocks*/
+ul.topnav li ul.dropdown li {
+  display: block;
+  width: 100%;
+}
+
+/*Permet de changer la couleur de l'objet survolé*/
+ul.topnav li a:hover {
+  background: #ddd;
+}
+
+/* Style pour le nom en gras dans le dropdown */
+ul.topnav li ul.dropdown li .dropdown-header {
+  font-weight: bold;
+}
+
+/* Style pour le contenu du dropdown */
+ul.topnav li ul.dropdown li {
+  display: block;
+  width: 100%;
+  padding: 10px; /* Ajoutez un padding pour l'espace autour du contenu */
+  line-height: 1.5; /* Espacement entre les lignes */
+}
+
+/* Style pour les liens dans le dropdown */
+ul.topnav li ul.dropdown li a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* Style pour le lien email dans le dropdown */
+ul.topnav li ul.dropdown li a[href^="mailto"] {
+  color: #3498db; /* Couleur spécifique pour les liens email */
+}
+
+/* Style pour élargir le dropdown de la section "Contacts" */
+ul.topnav li.style-dropdown ul.dropdown li {
+  width: 400px;
+  background-color: #000;
+  text-align: justify;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Style pour placer l'étiquette et l'e-mail sur la même ligne */
+ul.topnav li.style-dropdown ul.dropdown li a {
+  display: inline; /* Pour que l'e-mail apparaisse sur la même ligne */
+  margin-right: 10px; /* Ajoute une marge à droite pour séparer l'étiquette et l'e-mail */
+}
+
+/* Style pour l'infobox */
+.info {
+  padding: 10px 15px; 
+  font: 16px/20px Arial, Helvetica, sans-serif; 
+  background: white;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 8px; /* Plus arrondi */
+  width: 300px;
+}
+
+
+.info h4 {
+  margin: 0 0 10px; /* Ajustement de l'espacement sous le titre */
+  color: #777;
+  text-align: left;
+}
+
+/* Infobox */
+#infoBox {
+  position: absolute;
+  top: 15px;
+  right: -600px;
+  background-color: #fff;
+  padding: 15px; 
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px #ccc;
+  transition: right 0.5s ease;
+  z-index: 1000;
+  width: 600px; 
+}
+
+
+
+/* Infobox2*/
+#infoBox2 {
+  position: absolute;
+  top: 800px;
+  right: -600px;
+  background-color: #fff;
+  padding: 15px; 
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px #ccc;
+  transition: right 0.5s ease;
+  z-index: 1000;
+  width: 600px; 
+}
+
+/* Infobox3*/
+#infoBox3 {
+  position: absolute;
+  top: 1600px;
+  right: -600px;
+  background-color: #fff;
+  padding: 15px; 
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px #ccc;
+  transition: right 0.5s ease;
+  z-index: 1000;
+  width: 600px; 
+}
