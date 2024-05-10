@@ -47,6 +47,8 @@ var baseLayers = {
 var overlays = {};
 L.control.layers(baseLayers, overlays).addTo(mymap);
 
+// FOnction pour la barre de défilement ; changements selon l'année
+
 function updateSlider(year) {
   document.getElementById('yearSlider').value = year;
   document.getElementById('slider_value').innerText = year;
@@ -59,6 +61,7 @@ function toggleBuildingByYear() {
   updateSlider(year);
 }
 
+// Permet d'afficher les couches (4) selon les données disponibles
 function toggleYear(year) {
   var data;
   if (parseInt(year)<1990) {
@@ -92,7 +95,8 @@ function toggleYear(year) {
     geojsonLayer.addData(data);
   }
 }
-    
+
+// Permet d'afficher la couche du bâti en rouge
 var geojsonLayer = new L.geoJSON(null, {
   style: function (feature) {
     return { color: 'red', weight: 1 };
@@ -108,6 +112,7 @@ infoBox.onAdd = function (map) {
   return this._div;
 };
 
+// Informations de la commune provenant de communeEysins.js
 infoBox.update = function (props) {
   this._div.innerHTML = '<h4>Informations générales</h4>' + (props ?
     '<b>Commune: </b>' + props.NAME + '<br />' +
@@ -119,7 +124,6 @@ infoBox.update = function (props) {
 };
 
 infoBox.addTo(mymap);
-
 
 // Création de la commune sur la carte
 var commune = L.geoJSON(CommuneEysins, {
@@ -143,7 +147,6 @@ var commune = L.geoJSON(CommuneEysins, {
   }
 }).addTo(mymap);
 
-
 // Action pour zoomer sur la commune lorsqu'elle est cliquée
 commune.on('click', function (event) {
   mymap.fitBounds(event.target.getBounds());
@@ -156,7 +159,8 @@ function zoomSurCommuneEtInfo(properties) {
   infoBox._div.style.right = '10px';
 }
 
-// Creation de l'infobox avec infos densite, population, annnee
+// Création de l'infobox avec infos (densité, population, année et superficie)
+// N'apparait que lorsque l'on fait bouger la barre de défilement ou si on clique sur les informations de la première infobox
 
 var infoBox2 = L.control();
 infoBox2.onAdd = function (map) {
@@ -181,7 +185,7 @@ infoBox2.update = function (density, year) {
 infoBox2.addTo(mymap);
 
 // Création de l'infobox couche bâtiment disponible
-
+// Permet d'afficher l'année de la couche qui se trouve sur la carte
 var infoBox3 = L.control();
 infoBox3.onAdd = function (map) {
   this._div = L.DomUtil.create('div', 'info');
