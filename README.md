@@ -1,4 +1,4 @@
-# projet_vdd
+# KurzA_visualisation_sp24
 Cours Visualisation des données
 Auteure : Alexia Kurz
 Université de Lausanne, semestre printemps 2024
