@@ -4,7 +4,7 @@ Auteure : Alexia Kurz
 Université de Lausanne, semestre printemps 2024
 Master TEM
 
-Projet : Visualisation de l'évolution du bâti et de la densité de la commune d'Eysins (VD)
+Projet : Visualisation de l'évolution du bâti et de la densité de la popuplation de la commune d'Eysins (VD)
 
 Données 
 
@@ -75,6 +75,8 @@ Cependant, cette carte interactive ne permet pas de visualiser l’évolution du
 
 Selon l’objectif de la carte, il aurait été également envisageable de représenter les types de bâtiments (résidentiel, commercial, industriel, etc.) afin de mettre en évidence de quelle manière la structure du bâti de la commune d’Eysins a changé au fil du temps. A cela aurait pu aussi s’ajouter les équipements et les services offerts afin de connaître leur influence sur cette évolution. Or, cette application interactive cherche à rendre facilement visible l’évolution du bâti, l'évolution de la population et l’impact sur la densité d’habitant par km².
 
+Remerciements
+Merci à M. Isaac Pante pour le cours de "Visualisation de données", cours de Master de l'Université de Lausanne, semestre de printemps 2024.
 
 Bibliographie
 - Etat et structure de la population | État de Vaud. (s. d.). Consulté 9 mai 2024, à l’adresse https://www.vd.ch/etat-droit-finances/statistique/statistiques-par-domaine/01-population/etat-et-structure-de-la-population
