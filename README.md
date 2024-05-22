@@ -1,9 +1,9 @@
 # Visualisation de l'évolution du bâti et de la densité de la popuplation de la commune d'Eysins (VD)
 ## Projet
-Cours : Visualisation des données  
-Auteure : Alexia Kurz  
-Université : Université de Lausanne, semestre printemps 2024  
-Master : TEM, Faculté des Géosciences et de l'Environnement
+**Cours :** Visualisation des données  
+**Auteure :** Alexia Kurz  
+**Université :** Université de Lausanne, semestre printemps 2024  
+**Master :** TEM, Faculté des Géosciences et de l'Environnement
 
 **Projet :** Visualisation de l'évolution du bâti et de la densité de la population de la commune d'Eysins (VD)
 
