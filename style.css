@@ -91,7 +91,7 @@ ul.topnav li a {
   font-size: 20px;
 }
 
-/* Style pour la barre de menu déroulante */
+/* Style pour barre de menu déroulante */
 ul.topnav li ul.dropdown {
 
   background: #333;
@@ -163,7 +163,7 @@ ul.topnav li.style-dropdown ul.dropdown li a {
 
 /* Style pour mettre l'onglet de l'évolution en surbrillance */
 ul.topnav li.highlight-tab a {
-  background-color: #B0CBA9; 
+  background-color: #ddd; 
   color: #000; 
   font-weight: bold;
 }
@@ -179,7 +179,8 @@ ul.topnav li.highlight-tab a:hover {
   color: #000;
 }
 
-/* Style pour les 3 infoboxs */
+
+/* Style pour l'infobox */
 .info {
   padding: 10px 15px; 
   font: 16px/20px Arial, Helvetica, sans-serif; 
@@ -234,7 +235,7 @@ ul.topnav li.highlight-tab a:hover {
   z-index: 1000;
   width: 600px;
 }
-/* Style pour la barre de la barre slide */
+/* Style pour la barre de la slider */
 /* permet de modifier les informations par défaut */
 input[type="range"] {
   -webkit-appearance: none;
@@ -247,7 +248,7 @@ input[type="range"] {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
-/* Style pour la poignée de la barre slide */
+/* Style pour la poignée de la slider */
 /* Permet de modifier les informations par défaut */
 
 input[type="range"]::-webkit-slider-thumb {
