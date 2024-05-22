@@ -1,14 +1,13 @@
 # Visualisation de l'évolution du bâti et de la densité de la popuplation de la commune d'Eysins (VD)
 ## Projet
-***
-Cours Visualisation des données
-Auteure : Alexia Kurz
-Université : Université de Lausanne, semestre printemps 2024
+Cours Visualisation des données  
+Auteure : Alexia Kurz  
+Université : Université de Lausanne, semestre printemps 2024  
 Master : TEM
 
-Projet : Visualisation de l'évolution du bâti et de la densité de la popuplation de la commune d'Eysins (VD)
+**Projet :** Visualisation de l'évolution du bâti et de la densité de la population de la commune d'Eysins (VD)
 
-Données 
+## Données
 
 Les données des bâtiments proviennent de l’Office fédéral de la topographie swisstopo, ce qui correspond au centre national de la géoinformation et les données sont accessibles à tous gratuitement en téléchargement.
 
@@ -31,7 +30,7 @@ Quant aux données sur les bâtiments, l'application QGIS a également été uti
 
 Le périmètre de la commune a également été exportée depuis swisstopo avec une multitude d'informations et la géométrie. Les données sont données en allemand et le nombre d'habitants en 2023 a été rajouté (selon les données de statistiques vaudoises), mais également le district et le canton, en reprenant le numéro de canton présent.
 
-Contexte de la problématique
+## Contexte de la problématique
 
 La commune d'Eysins, située dans le district de Nyon et adjacente à la ville du même nom, a connu une croissance significative de son bâti et de sa population depuis les années 1990. Cette expansion peut être attribuée à sa position géographique stratégique au cœur du pôle économique genevois et vaudois. En 2023, la population de ce petit village rural comptait 1739 habitants. Cette croissance a été accompagnée par le développement de nouvelles infrastructures et l'arrivée de nouveaux résidents, transformant progressivement l'image de la commune (Immo-swissnews.ch, s. d. ; Planification territoriale, s. d.).
 
@@ -47,7 +46,7 @@ Quant aux champs disciplinaires impliquées dans une telle cartographie interact
 
 Ce projet fait également appel à la géomatique en utilisant des logiciels SIG (Systèmes d'Information Géographique) afin de collecter des données spatiales pour ensuite les analyser et les visualiser. Les outils informatiques ont permis la création de cette cartographie interactive en faisant appel à des technologies (JavaScript, HTML, CSS) afin de rendre la visualisation de ces données possibles. A cela s’ajoute que la conception de l’interface fait appel à des connaissances sur la communication et le design. En effet, il faut rendre cette interface attrayante et intuitive pour l’utilisateur. 
 
-Choix des visualisations
+## Choix des visualisations
 
 Le choix quant à la visualisation s’est fait selon plusieurs critères. Dans un premier temps, il est important de choisir une cartographie interactive afin de permettre aux utilisateurs de visualiser et de comprendre facilement l’évolution du bâti et d'obtenir les informations quant à la population et la densité de la population par km2. 
 
@@ -65,24 +64,23 @@ A cela s'ajoute un message dans une boîte d’information l’invitant à cliqu
 
 Ainsi, ce tableau de bord et cette carte interactive permettent aux utilisateurs de personnaliser leur explorations et de comprendre plus aisément et visuellement les changements à travers le temps.
 
-Ce que permettent de dire ces visualisations
+## Ce que permettent de dire ces visualisations
 
 Cette carte interactive permet de visualiser l’évolution du bâti et de la densité de la population de la commune d’Eysins des années 1950 à 2023. Ainsi, il est possible de déplacer la barre temporelle afin de voir les changements selon l’année et la disponibilité des données. De plus, il est possible de connaître un certain nombre d’informations générales sur la commune sélectionnée, ici Eysins en cliquant dessus.  Cette boîte d’information se met dynamiquement à jour en sélectionnant le commune. De ce fait, il est tout à fait envisageable d’afficher d’autres communes aux alentours en faisant apparaître des informations spécifiques dans la boîte informative. Lorsque l'on clique dessus, cela fait apparaitre des informations supplémentaires. Ce choix a été fait afin d'alléger la carte.
 
 A cela s’ajoute que les coordonnées apparaissent en haut à droite afin de connaître l’emplacement exact de chaque bâtiment. 
 
-Ce qu'elles ne permettent pas de dire
+## Ce qu'elles ne permettent pas de dire
 
 Cependant, cette carte interactive ne permet pas de visualiser l’évolution du bâti aux alentours. Il serait intéressant de développer ce modèle avec les communes limitrophes et d’analyser plus précisément la superficie occupée par le bâti. Dès lors, elle n’affiche que visuellement l’évolution du bâti et la transformation des bâtiments, mais ne permet pas d’obtenir des informations statistiques quant à l’évolution de la superficie des sols construits, quant au nombre total de bâtiments ou encore leur répartition par type. 
 
 Selon l’objectif de la carte, il aurait été également envisageable de représenter les types de bâtiments (résidentiel, commercial, industriel, etc.) afin de mettre en évidence de quelle manière la structure du bâti de la commune d’Eysins a changé au fil du temps. A cela aurait pu aussi s’ajouter les équipements et les services offerts afin de connaître leur influence sur cette évolution. Or, cette application interactive cherche à rendre facilement visible l’évolution du bâti, l'évolution de la population et l’impact sur la densité d’habitant par km².
 
-Remerciements
+## Remerciements
 Merci à M. Isaac Pante pour le cours de "Visualisation de données", cours de Master de l'Université de Lausanne, semestre de printemps 2024.
 
-Bibliographie
-- Etat et structure de la population | État de Vaud. (s. d.). Consulté 9 mai 2024, à l’adresse https://www.vd.ch/etat-droit-finances/statistique/statistiques-par-domaine/01-population/etat-et-structure-de-la-population
-- Immo-swissnews.ch. (s. d.). Nyon : Une des régions les plus performantes de Suisse. Toute l’information immobilière en Suisse. Consulté 23 avril 2024, à l’adresse https://www.immo-swissnews.ch/Nyon-une-des-regions-les-plus-performantes-de-Suisse_a1130.htm
-- Planification territoriale. (s. d.). Planification territoriale. Consulté 9 mai 2024, à l’adresse https://www.nyon.ch/nyon-officiel/politiques-thematiques/amenagement-du-territoire/planification-territoriale-946
-- swisstopo. (s. d.). swissBUILDINGS3D 2.0. Consulté 9 mai 2024, à l’adresse https://www.swisstopo.admin.ch/fr/modele-du-territoire-swissbuildings3d-2-0
+## Bibliographie
+* Etat et structure de la population | État de Vaud. (s. d.). Consulté 9 mai 2024, à l’adresse https://www.vd.ch/etat-droit-finances/statistique/statistiques-par-domaine/01-population/etat-et-structure-de-la-populationImmo-swissnews.ch. (s. d.). Nyon : Une des régions les plus performantes de Suisse. Toute l’information immobilière en Suisse. Consulté 23 avril 2024, à l’adresse https://www.immo-swissnews.ch/Nyon-une-des-regions-les-plus-performantes-de-Suisse_a1130.htm
+* Planification territoriale. (s. d.). Planification territoriale. Consulté 9 mai 2024, à l’adresse https://www.nyon.ch/nyon-officiel/politiques-thematiques/amenagement-du-territoire/planification-territoriale-946
+* swisstopo. (s. d.). swissBUILDINGS3D 2.0. Consulté 9 mai 2024, à l’adresse https://www.swisstopo.admin.ch/fr/modele-du-territoire-swissbuildings3d-2-0
 
