@@ -1,5 +1,5 @@
 // Initialisation de la carte avec une vue centrée et zoomée
-var mymap = L.map('map').setView([46.38, 6.20], 14);
+var mymap = L.map('map').setView([46.3809, 6.2065], 14);
 
 // Limitation de la carte à XXX
 mymap.setMaxBounds([[46.30, 6.10], [46.40, 6.30]]);
@@ -109,7 +109,6 @@ infoBox.onAdd = function (map) {
   return this._div;
 };
 
-// Mise à jour des informations en fonction des données
 infoBox.update = function (props) {
   this._div.innerHTML = '<h4>Informations générales</h4>' + (props ?
     '<b>Commune: </b>' + props.NAME + '<br />' +
@@ -139,7 +138,6 @@ var commune = L.geoJSON(CommuneEysins, {
   }
 }).addTo(mymap);
 
-// Permet de zoomer sur la commune après un clic dessus
 commune.on('click', function (event) {
   mymap.fitBounds(event.target.getBounds());
 });
