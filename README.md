@@ -1,9 +1,9 @@
 # Visualisation de l'évolution du bâti et de la densité de la popuplation de la commune d'Eysins (VD)
 ## Projet
-Cours Visualisation des données  
+Cours : Visualisation des données  
 Auteure : Alexia Kurz  
 Université : Université de Lausanne, semestre printemps 2024  
-Master : TEM
+Master : TEM, Faculté des Géosciences et de l'Environnement
 
 **Projet :** Visualisation de l'évolution du bâti et de la densité de la population de la commune d'Eysins (VD)
 
@@ -77,10 +77,11 @@ Cependant, cette carte interactive ne permet pas de visualiser l’évolution du
 Selon l’objectif de la carte, il aurait été également envisageable de représenter les types de bâtiments (résidentiel, commercial, industriel, etc.) afin de mettre en évidence de quelle manière la structure du bâti de la commune d’Eysins a changé au fil du temps. A cela aurait pu aussi s’ajouter les équipements et les services offerts afin de connaître leur influence sur cette évolution. Or, cette application interactive cherche à rendre facilement visible l’évolution du bâti, l'évolution de la population et l’impact sur la densité d’habitant par km².
 
 ## Remerciements
-Merci à M. Isaac Pante pour le cours de "Visualisation de données", cours de Master de l'Université de Lausanne, semestre de printemps 2024.
+Je tiens à remercie M. Isaac Pante et Loris Rimaz pour le cours de "Visualisation de données", cours de Master de l'Université de Lausanne, dispensé lors du semestre de printemps 2024, ainsi que pour leurs précieux conseils.
 
 ## Bibliographie
-* Etat et structure de la population | État de Vaud. (s. d.). Consulté 9 mai 2024, à l’adresse https://www.vd.ch/etat-droit-finances/statistique/statistiques-par-domaine/01-population/etat-et-structure-de-la-populationImmo-swissnews.ch. (s. d.). Nyon : Une des régions les plus performantes de Suisse. Toute l’information immobilière en Suisse. Consulté 23 avril 2024, à l’adresse https://www.immo-swissnews.ch/Nyon-une-des-regions-les-plus-performantes-de-Suisse_a1130.htm
+* Etat et structure de la population | État de Vaud. (s. d.). Consulté 9 mai 2024, à l’adresse https://www.vd.ch/etat-droit-finances/statistique/statistiques-par-domaine/01-population/etat-et-structure-de-la-populationImmo-swissnews.ch. (s. d.).
+* Nyon : Une des régions les plus performantes de Suisse. Toute l’information immobilière en Suisse. Consulté 23 avril 2024, à l’adresse https://www.immo-swissnews.ch/Nyon-une-des-regions-les-plus-performantes-de-Suisse_a1130.html
 * Planification territoriale. (s. d.). Planification territoriale. Consulté 9 mai 2024, à l’adresse https://www.nyon.ch/nyon-officiel/politiques-thematiques/amenagement-du-territoire/planification-territoriale-946
 * swisstopo. (s. d.). swissBUILDINGS3D 2.0. Consulté 9 mai 2024, à l’adresse https://www.swisstopo.admin.ch/fr/modele-du-territoire-swissbuildings3d-2-0
 
