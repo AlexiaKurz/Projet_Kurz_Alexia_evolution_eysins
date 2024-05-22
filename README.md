@@ -1,8 +1,8 @@
 # Visualisation de l'évolution du bâti et de la densité de la popuplation de la commune d'Eysins (VD)
 Cours Visualisation des données
 Auteure : Alexia Kurz
-Université de Lausanne, semestre printemps 2024
-Master TEM
+Université : Université de Lausanne, semestre printemps 2024
+Master : TEM
 
 Projet : Visualisation de l'évolution du bâti et de la densité de la popuplation de la commune d'Eysins (VD)
 
