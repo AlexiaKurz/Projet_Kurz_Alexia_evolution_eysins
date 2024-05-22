@@ -79,9 +79,9 @@ Ainsi, ce tableau de bord et cette carte interactive permettent aux utilisateurs
 
 ![Ouverture HTML](image_projet_html.png)
 
-#### Après avoir cliqué sur la commune et bouger la barre slide
+#### Après avoir cliqué sur la commune et fait défiler les informations de la barre slide
 
-![Ouverture HTML](image_projet_interactions.png)
+![Interactions](image_projet_interactions.png)
 
 ## Ce que permettent de dire ces visualisations
 
