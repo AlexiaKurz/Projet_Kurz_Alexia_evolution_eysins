@@ -85,9 +85,7 @@ Ainsi, ce tableau de bord et cette carte interactive permettent aux utilisateurs
 
 ## Ce que permettent de dire ces visualisations
 
-Cette carte interactive permet de visualiser l’évolution du bâti et de la densité de la population de la commune d’Eysins des années 1950 à 2023. Ainsi, il est possible de déplacer la barre temporelle afin de voir les changements selon l’année et la disponibilité des données. De plus, il est possible de connaître un certain nombre d’informations générales sur la commune sélectionnée, ici Eysins en cliquant dessus.  Ces boîtes d’information se mettent dynamiquement à jour en sélectionnant le commune. De ce fait, il est tout à fait envisageable d’afficher d’autres communes aux alentours en faisant apparaître des informations spécifiques dans la boîte informative. Lorsque l'on clique sur la commune, les informations de la première bulle apparaisse, puis deux autres infobulles viennent compléter les informations. Ce choix a été fait afin d'alléger la carte.
-
-A cela s’ajoute que les coordonnées apparaissent en haut à droite afin de connaître l’emplacement exact de chaque bâtiment. 
+Cette carte interactive permet de visualiser l’évolution du bâti et de la densité de la population de la commune d’Eysins des années 1950 à 2023. Ainsi, il est possible de déplacer la barre temporelle afin de voir les changements selon l’année et la disponibilité des données. De plus, il est possible de connaître un certain nombre d’informations générales sur la commune sélectionnée, ici Eysins en cliquant dessus.  Ces boîtes d’information se mettent dynamiquement à jour en sélectionnant le commune. De ce fait, il est tout à fait envisageable d’afficher d’autres communes aux alentours en faisant apparaître des informations spécifiques dans la boîte informative. Lorsque l'on clique sur la commune, les informations de la première bulle apparaisse, puis deux autres infobulles viennent compléter les informations. Ce choix a été fait afin d'alléger la carte. A cela s’ajoute que les coordonnées apparaissent en haut à droite afin de connaître l’emplacement exact de chaque bâtiment. 
 
 ## Ce qu'elles ne permettent pas de dire
 
