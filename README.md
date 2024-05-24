@@ -74,7 +74,7 @@ A cela s'ajoute un message dans une boîte d’information l’invitant à cliqu
 
 Ainsi, ce tableau de bord et cette carte interactive permettent aux utilisateurs de personnaliser leur explorations et de comprendre plus aisément et visuellement les changements à travers le temps.
 
-### Représentation visuelle
+### Captures
 #### Lors de l'ouverture de l'HTML
 
 ![Ouverture HTML](image_projet_html.png)
