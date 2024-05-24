@@ -102,7 +102,10 @@ Je tiens à remercie M. Isaac Pante et Loris Rimaz pour le cours de "Visualisati
 
 ## Bibliographie
 * Etat et structure de la population | État de Vaud. (s. d.). Consulté 9 mai 2024, à l’adresse https://www.vd.ch/etat-droit-finances/statistique/statistiques-par-domaine/01-population/etat-et-structure-de-la-populationImmo-swissnews.ch. (s. d.).
+* GIS Mapping Software, Location Intelligence & Spatial Analytics | Esri. (s. d.). Consulté 24 mai 2024, à l’adresse https://www.esri.com/en-us/home
 * Nyon : Une des régions les plus performantes de Suisse. Toute l’information immobilière en Suisse. Consulté 23 avril 2024, à l’adresse https://www.immo-swissnews.ch/Nyon-une-des-regions-les-plus-performantes-de-Suisse_a1130.html
 * Planification territoriale. (s. d.). Planification territoriale. Consulté 9 mai 2024, à l’adresse https://www.nyon.ch/nyon-officiel/politiques-thematiques/amenagement-du-territoire/planification-territoriale-946
 * swisstopo. (s. d.). swissBUILDINGS3D 2.0. Consulté 9 mai 2024, à l’adresse https://www.swisstopo.admin.ch/fr/modele-du-territoire-swissbuildings3d-2-0
+* OpenStreetMap. (s. d.). Consulté 23 mai 2024, à l’adresse https://www.openstreetmap.org/#map=5/52.869/-1.187
+
 
